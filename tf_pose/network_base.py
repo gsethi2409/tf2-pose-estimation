@@ -16,7 +16,7 @@ DEFAULT_PADDING = 'SAME'
 _init_xavier = tf.initializers.GlorotUniform()
 _init_norm = tf.initializers.TruncatedNormal(stddev=0.01)
 _init_zero = tf.zeros_initializer()
-_l2_regularizer_00004 = tf.keras.regularizers.l2(l=0.00004)
+_l2_regularizer_00004 = tf.keras.regularizers.l2(l2=0.00004)
 _l2_regularizer_convb = tf.keras.regularizers.l2(common.regularizer_conv)
 
 
